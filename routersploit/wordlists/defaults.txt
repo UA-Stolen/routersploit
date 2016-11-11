@@ -8,6 +8,7 @@ ADMN:admn
 ADVMAIL:HP
 ADVMAIL:HPOFFICE
 Admin:admin
+Admin:Admin
 Administrator:3ware
 Administrator:admin
 Administrator:changeme
@@ -112,6 +113,7 @@ aaa:often blank
 acc:acc
 adfexc:adfexc
 admin2:changeme
+admin:
 admin:0
 admin:0000
 admin:1111
@@ -120,6 +122,7 @@ admin:1234
 admin:123456
 admin:2222
 admin:22222
+admin:362729
 admin:AitbISP4eCiG
 admin:Ascend
 admin:NetCache
@@ -137,6 +140,7 @@ admin:bintec
 admin:cableroot
 admin:changeme
 admin:cisco
+admin:COadmin123
 admin:comcomcom
 admin:conexant
 admin:default
@@ -146,6 +150,7 @@ admin:extendnet
 admin:giraff
 admin:hagpolm1
 admin:hello
+admin:ho4uku6at
 admin:hp.com
 admin:ironport
 admin:isee
@@ -178,6 +183,7 @@ admin:system
 admin:visual
 admin:test
 admin:test1
+admin:Uq-4GIt3M
 admin:w2402
 admin:xad$l#12
 admin:zoomadsl
@@ -276,6 +282,7 @@ maint:rwmaint
 manager:admin
 manager:friend
 manager:manager
+Management:TestingR2
 manuf:xxyyzz
 mediator:mediator
 mlusr:mlusr
@@ -307,9 +314,11 @@ readwrite:lucenttech1
 recovery:recovery
 replicator:replicator
 ro:ro
+root:zsun1188
 root:1234
 root:12345
 root:123456
+root:20080826
 root:3ep5w2u
 root:Cisco
 root:Mau'dib
@@ -333,6 +342,8 @@ root:root
 root:tini
 root:tslinux
 root:wyse
+root:Zte521
+root:W!n0&oO7.
 router:router
 rw:rw
 rwa:rwa
@@ -351,6 +362,7 @@ super:5777364
 super:super
 super:surt
 superadmin:secret
+superadmin:Is$uper@dmin
 superman:21241036
 superman:talent
 superuser:123456
@@ -376,6 +388,10 @@ tech:field
 tech:tech
 telco:telco
 telecom:telecom
+telecomadmin:telecomadmin
+telecomadmin:admintelecom
+telecomadmin:nE7jA%5m
+telecomadmin:******
 tellabs:tellabs#1
 temp1:password
 test:test

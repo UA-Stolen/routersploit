@@ -1,6 +1,8 @@
 # RouterSploit - Router Exploitation Framework
 
+[![Python 2.7](https://img.shields.io/badge/Python-2.7-yellow.svg)](http://www.python.org/download/)
 [![Build Status](https://travis-ci.org/reverse-shell/routersploit.svg?branch=master)](https://travis-ci.org/reverse-shell/routersploit)
+[![Join the chat at https://gitter.im/reverse-shell/routersploit](https://badges.gitter.im/reverse-shell/routersploit.svg)](https://gitter.im/reverse-shell/routersploit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 The RouterSploit Framework is an open-source exploitation framework dedicated to embedded devices.
 
@@ -16,7 +18,7 @@ It consists of various modules that aids penetration testing operations:
 
 ## Requirements
 
-* gnureadline
+* gnureadline (OSX only)
 * requests
 * paramiko
 * beautifulsoup4
@@ -28,7 +30,7 @@ It consists of various modules that aids penetration testing operations:
 	cd routersploit
 	./rsf.py
 	
-## Installation on Ubuntu
+## Installation on Ubuntu 16.04
 
 	sudo apt-get install python-dev python-pip libncurses5-dev git
 	git clone https://github.com/reverse-shell/routersploit
@@ -78,7 +80,7 @@ Update RouterSploit Framework often. Project is under heavy development and new 
 	rsf > use exploits/dlink/dir_300_600_rce
 	rsf (D-LINK DIR-300 & DIR-600 RCE) > 
 
-U can use tab key for completion.
+You can use the tab key for completion.
 
 ### Options
 

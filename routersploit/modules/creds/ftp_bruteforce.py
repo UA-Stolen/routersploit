@@ -23,9 +23,17 @@ class Exploit(exploits.Exploit):
     """
     __info__ = {
         'name': 'FTP Bruteforce',
+        'description': 'Module performs bruteforce attack against FTP service.'
+                       'If valid credentials are found, they are displayed to the user.',
         'authors': [
-            'Marcin Bury <marcin.bury[at]reverse-shell.com>'  # routersploit module
-        ]
+            'Marcin Bury <marcin.bury[at]reverse-shell.com>',  # routersploit module
+        ],
+        'references': [
+            '',
+        ],
+        'devices': [
+            'Multi',
+        ],
     }
 
     target = exploits.Option('', 'Target IP address or file with target:port (file://)')
@@ -48,7 +56,7 @@ class Exploit(exploits.Exploit):
         ftp = ftplib.FTP()
         try:
             ftp.connect(self.target, port=int(self.port), timeout=10)
-        except socket.error, socket.timeout:
+        except (socket.error, socket.timeout):
             print_error("Connection error: %s:%s" % (self.target, str(self.port)))
             ftp.close()
             return
@@ -97,7 +105,7 @@ class Exploit(exploits.Exploit):
                     try:
                         ftp.connect(self.target, port=int(self.port), timeout=10)
                         break
-                    except socket.error, socket.timeout:
+                    except (socket.error, socket.timeout):
                         print_error("{} Connection problem. Retrying...".format(name), verbose=module_verbosity)
                         retries += 1
 

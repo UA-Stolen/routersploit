@@ -23,7 +23,17 @@ class Exploit(exploits.Exploit):
     """
     __info__ = {
         'name': 'SSH Bruteforce',
-        'authors': 'Marcin Bury <marcin.bury[at]reverse-shell.com>'  # routersploit module
+        'description': 'Module performs bruteforce attack against SSH service. '
+                       'If valid credentials are found, they are displayed to the user.',
+        'authors': [
+            'Marcin Bury <marcin.bury[at]reverse-shell.com>',  # routersploit module
+        ],
+        'references': [
+            '',
+        ],
+        'devices': [
+            'Multi',
+        ],
     }
 
     target = exploits.Option('', 'Target IP address or file with target:port (file://)')
@@ -41,7 +51,7 @@ class Exploit(exploits.Exploit):
         self.credentials = []
         self.attack()
 
-    @multi        
+    @multi
     def attack(self):
         ssh = paramiko.SSHClient()
 
